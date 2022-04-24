@@ -10,7 +10,7 @@ const jsonTransform = require('./src/json-transform');
 function activate(context) {
 	console.log('Congratulations, your extension "convert-json-format-to-eslint" is now active!');
 
-	const command = vscode.commands.registerCommand('convert-json-format-to-eslint.helloWorld', function () {
+	const command = vscode.commands.registerCommand('convert-json-format-to-eslint.jconvert', function () {
 		const editor = vscode.window.activeTextEditor;
 		const document = editor.document;
 

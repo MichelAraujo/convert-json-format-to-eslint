@@ -1,7 +1,7 @@
 {
   "name": "convert-json-format-to-eslint",
 	"displayName": "VSCode Extension: Convert Json Format to ESlint",
-	"description": " VSCode Extension to allow an easy way to select a json and convert it to Eslint json format",
+	"description": " VSCode Extension to allow an easy way to select a json and convert it to eslint json format",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.66.0"
@@ -10,14 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:convert-json-format-to-eslint.helloWorld"
+    "onCommand:convert-json-format-to-eslint.jconvert"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [{
-            "command": "convert-json-format-to-eslint.helloWorld",
-            "title": "CJson"
-
+			"command": "convert-json-format-to-eslint.jconvert",
+			"title": "jconvert"
 		}]
 	},
 	"scripts": {
@@ -26,15 +25,14 @@
 		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
-        "@types/vscode": "^1.66.0",
-        "@types/glob": "^7.2.0",
-        "@types/mocha": "^9.1.0",
-        "@types/node": "14.x",
-        "eslint": "^8.11.0",
-        "glob": "^7.2.0",
-        "mocha": "^9.2.2",
-        "typescript": "^4.5.5",
-        "@vscode/test-electron": "^2.1.3"
-    }
-
+		"@types/vscode": "^1.66.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.0",
+		"@types/node": "14.x",
+		"eslint": "^8.11.0",
+		"glob": "^7.2.0",
+		"mocha": "^9.2.2",
+		"typescript": "^4.5.5",
+		"@vscode/test-electron": "^2.1.3"
+  }
 }
