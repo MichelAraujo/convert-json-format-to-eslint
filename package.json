@@ -3,6 +3,7 @@
 	"displayName": "VSCode Extension: Convert Json Format to ESlint",
 	"description": "VSCode Extension to allow an easy way to select a json and convert it to eslint json format",
 	"version": "0.1.0",
+	"publisher": "Michel Araujo",
 	"repository": { 
 		"type": "git", 
 		"url": "https://github.com/MichelAraujo/convert-json-format-to-eslint" 
